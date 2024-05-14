@@ -1,0 +1,48 @@
+.card_2 {
+    position: relative;
+    margin-bottom: 16px;
+    font-family: SF Pro Display, sans-serif;
+    border-radius: 8px;
+    background-color: #00a88b;
+    color: #fff;
+    padding: 25px 24px 24px 24px;
+    cursor: grab;
+    user-select: none;
+    transition: 0.2s ease;
+}
+
+.card_2:active {
+    cursor: grabbing;
+}
+
+.card_2 h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card_2 p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 8px;
+    opacity: 0.9;
+}
+
+.card_2 a {
+    text-decoration: none;
+    color: blue;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+
+.close-for-card{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    box-shadow: none !important;
+}
+
+.dragging {
+    transform: scale(0.9);
+    transition: 0.3s ease;
+    opacity: 0.1;
+}

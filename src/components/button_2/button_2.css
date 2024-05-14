@@ -1,0 +1,15 @@
+.getActive {
+    display: block;
+    background-color: #262626;
+    color: #fff;
+    margin: 0 auto;
+    border: none;
+    margin-top: 50px;
+    width: 50%;
+    height: 70px;
+    border-radius: 16px;
+    font-family: SF Pro Display, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 90px;
+}

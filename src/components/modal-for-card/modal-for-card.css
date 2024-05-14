@@ -1,0 +1,12 @@
+.dark-theme {
+    background-color: #262626 !important;
+    color: #dee2e6 !important
+}
+
+.btn-for-modal{
+    margin-right: 10px !important;
+}
+
+.btn-for-modal__success {
+    background-color: #00a88b !important;
+}

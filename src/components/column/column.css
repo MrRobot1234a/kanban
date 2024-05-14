@@ -1,0 +1,13 @@
+.item {
+    min-height: 650px;
+    background-color: #262626;
+    color: #fff;
+    border-radius: 16px;
+}
+
+.item h2 {
+    margin-top: 24px;
+    font-family: SF Pro Display, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
