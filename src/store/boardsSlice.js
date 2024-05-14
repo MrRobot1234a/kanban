@@ -30,7 +30,6 @@ const boardsSlice = createSlice({
     reducers: {
         setRandomActivity(state, action) {
             const { activity } = action.payload
-
             state.boards[0].cards.push(activity)
         },
         deleteCard(state, action) {
